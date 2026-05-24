@@ -6,7 +6,7 @@ import { login, registration } from '../http/userAPI';
 import { Container, Form, Button, Card } from 'react-bootstrap';
 
 const Auth = observer(() => {
-    const { user, setUser, setIsAuth } = useContext(Context);   // ← ИСПРАВЛЕНО
+    const { setUser, setIsAuth } = useContext(Context);   // ← ИСПРАВЛЕНО
     const history = useHistory();
 
     const [email, setEmail] = useState('');
