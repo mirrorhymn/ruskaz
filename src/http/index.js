@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const $host = axios.create({
-    baseURL: 'http://localhost:5001/api'     // ←←← ИЗМЕНИЛИ НА 5001
+    baseURL: 'https://ruskaz-server.onrender.com/api'
 });
 
 const $authHost = axios.create({
