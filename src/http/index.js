@@ -5,7 +5,7 @@ const $host = axios.create({
 });
 
 const $authHost = axios.create({
-    baseURL: 'http://localhost:5001/api'
+    baseURL: 'https://ruskaz-server.onrender.com/api'
 });
 
 const authInterceptor = config => {
