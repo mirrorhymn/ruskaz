@@ -14,10 +14,10 @@ const BookList = observer(() => {
                 // Добавляем видео-ссылки ко всем книгам
                 const allBooks = data.map(book => {
                     if (book.name === 'Колобок') {
-                        return { ...book, price: 0, videoUrl: 'https://drive.google.com/file/d/1EQ5HdPysDI4j9E60mZGK4NLMMVttlGJS/view?usp=share_link' };
+                        return { ...book, price: 0, videoUrl: 'https://drive.google.com/uc?export=download&id=1EQ5HdPysDI4j9E60mZGK4NLMMVttlGJS' };
                     }
                     if (book.name === 'Три поросёнка') {
-                        return { ...book, price: 0, videoUrl: 'https://drive.google.com/file/d/1uYAzh1BTJax8G6i90sTSdo0PSP9ny58X/view?usp=share_link' };
+                        return { ...book, price: 0, videoUrl: 'https://drive.google.com/uc?export=download&id=1uYAzh1BTJax8G6i90sTSdo0PSP9ny58X' };
                     }
                     return book;
                 });
@@ -41,14 +41,14 @@ const BookList = observer(() => {
                         name: 'Колобок',
                         author: 'Русская народная сказка',
                         price: 0,
-                        videoUrl: 'https://drive.google.com/file/d/1EQ5HdPysDI4j9E60mZGK4NLMMVttlGJS/view?usp=share_link'
+                        videoUrl: 'https://drive.google.com/uc?export=download&id=1EQ5HdPysDI4j9E60mZGK4NLMMVttlGJS'
                     },
                     {
                         id: 2,
                         name: 'Три поросёнка',
                         author: 'Русская народная сказка',
                         price: 0,
-                        videoUrl: 'https://drive.google.com/file/d/1uYAzh1BTJax8G6i90sTSdo0PSP9ny58X/view?usp=share_link'
+                        videoUrl: 'https://drive.google.com/uc?export=download&id=1uYAzh1BTJax8G6i90sTSdo0PSP9ny58X'
                     },
                     {
                         id: 999,
